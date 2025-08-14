@@ -1,0 +1,12 @@
+[package]
+name = "MemeContestV2"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule_addr = "0xd34c843357a932d1643c590b297a239c0af3aa84338537b539fa7a3fe9676510"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+
+[dev-dependencies]
